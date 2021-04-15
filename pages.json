@@ -1,0 +1,80 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path" : "pages/map/map",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "地图",
+				"enablePullDownRefresh": false
+			}
+		}
+		,{
+			"path" : "pages/my/my",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false
+			}
+			
+		}
+        ,{
+            "path" : "pages/test/echarts_use/echarts_use",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "echarts图表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/test/videoplay/videoplay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar":{
+	        "color":"#333",
+	        "selectedColor":"#007AFF",
+	        "backgroundColor":"#eee",
+	        "borderStyle":"black",
+	        "list":[
+	            {
+	                "pagePath":"pages/index/index",
+	                "text":"首页",
+					"iconPath":"static/tabicon/home.png",
+					"selectedIconPath":"static/tabicon/home_selected.png"
+	            },
+				{
+				    "pagePath":"pages/map/map",
+				    "text":"地图",
+				    "iconPath":"static/tabicon/map.png",
+				    "selectedIconPath":"static/tabicon/map_selected.png"
+				},
+	            {
+	                "pagePath":"pages/my/my",
+	                "text":"我的",
+	                "iconPath":"static/tabicon/person.png",
+	                "selectedIconPath":"static/tabicon/person_selected.png"
+	            }
+	        ]
+	    }
+}
